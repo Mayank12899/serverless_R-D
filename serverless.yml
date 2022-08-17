@@ -1,0 +1,11 @@
+service: serverless_R&D
+frameworkVersion: "2"
+
+provider:
+  name: aws
+  runtime: python3.9
+  lambdaHashingVersion: 20201221
+
+functions:
+  helloDuniya:
+    handler: lambdas/helloDuniya.lambda_handler
